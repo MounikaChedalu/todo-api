@@ -22,7 +22,7 @@ const Todoapp = () => {
       .catch(error => {
         console.error(error);
       });
-  }, []);
+  },[]);
 
   const handleChange = e => {
     setData(e.target.value);

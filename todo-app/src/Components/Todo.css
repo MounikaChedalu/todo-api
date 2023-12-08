@@ -1,3 +1,6 @@
+body{
+  background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+}
 .todo-form {
     margin-left: 550px;
     margin-top: 40px;
@@ -35,7 +38,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: lightsteelblue;
+    background-color:#5C8374;
     text-align: left;
     width: 650px;
     height: 65px;
@@ -47,7 +50,7 @@
   }
   
   .todo-row:nth-child(even) {
-    background-color: lightblue;
+    background-color: #93B1A6;
   }
   
   .todo-row .icons {
@@ -66,12 +69,12 @@
   .todo-text {
     flex-grow: 1;
     margin-right: 10px;
-    margin-left: 10px; /* Add left margin */
+    margin-left: 10px; 
   }
   
   .completed-text {
     text-decoration: line-through;
-    color: gray;
+    color:#31304D;
   }
   
    button{
@@ -79,7 +82,7 @@
     width: 120px;
     margin-left: 8px;
     border-radius: 5px;
-    background-color:lightgreen;
+    background-color:#FA7070;
     font-size: larger;
     color: white;
     border: none;
